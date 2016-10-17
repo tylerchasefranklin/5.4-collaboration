@@ -1,0 +1,10 @@
+
+<div class="char-select">
+  <h4 class="char-dropdown">Choose your Hero<i class="fa fa-caret-down" aria-hidden="true"></i></h4>
+  <ul class="hero-list">
+    {{#each chars}}
+      <li class="protagonist" data-protag-name="{{name}}">{{name}}</li>
+      <br>
+    {{/each}}
+  </ul>
+</div>

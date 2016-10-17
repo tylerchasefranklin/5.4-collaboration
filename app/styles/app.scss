@@ -1,0 +1,112 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+//
+//OUR STYLES BELOW
+//
+
+body{
+  background: url('http://wallpaper.zone/img/4519119.png') no-repeat;
+  background-size: cover;
+}
+
+#hodge-podge{
+  text-align: center;
+  color: white;
+}
+
+#title-description{
+  text-align: center;
+  color: #833883;
+}
+
+.hero-list{
+  display: none;
+}
+
+.char-dropdown{
+  display: inline-block;
+  &:hover{
+  background-color: #833883;
+  }
+}
+
+.char-select{
+  text-align: center;
+  color: white;
+}
+
+.hero-list{
+  margin-right: 40px;
+}
+
+.protagonist{
+  display: inline-block;
+  list-style: none;
+  color: #833883;
+  font-size: 18px;
+  &:hover{
+  background-color: white;
+  }
+}
+
+.name-gamescreen{
+  display: inline-block;
+  color: white;
+  border-bottom: 4px solid #833883;
+}
+
+.avatar-goodguy{
+  height: 400px;
+  width: 100%;
+}
+
+.avatar-badguy{
+  height: 400px;
+  width: 100%;
+}
+
+.colin{
+  position: relative;
+}
+
+#atk-btn-holder{
+  text-align: center;
+}
+
+.attack-button{
+  border-radius: 5px;
+  border-size: 1px;
+  box-shadow: 1px 0px 3px 0px #833883;
+  color: white;
+  background-color: #833883;
+  font-size: 30px;
+}
+
+#reset-btn-holder{
+text-align: center;
+margin-right: 20px;
+}
+
+.reset-button{
+  border-radius: 5px;
+  border-size: 1px;
+  box-shadow: 1px 0px 3px 0px #833883;
+  color: #833883;
+  background-color: white;
+  font-size: 20px;
+}
